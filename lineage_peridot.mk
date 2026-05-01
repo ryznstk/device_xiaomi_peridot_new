@@ -37,6 +37,7 @@ PRODUCT_NO_CAMERA := true
 PERF_GOV_SUPPORTED := true
 PERF_DEFAULT_GOV := schedutil
 TARGET_INCLUDE_AXFX := true
+TARGET_INCLUDES_LOS_PREBUILTS := false
 
 # Camera information (multiple sensors supported)
 AXION_CAMERA_REAR_INFO := 50,8
