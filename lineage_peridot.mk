@@ -22,6 +22,28 @@ PRODUCT_CHARACTERISTICS := nosdcard
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Flags
-EVO_BUILD_TYPE := Official
-TARGET_BUILD_APERTURE_CAMERA := false
+TARGET_DISABLE_EPPE := true
+# Evox
+WITH_GMS := true
+TARGET_OPTIMIZED_DEXOPT := true
 TARGET_HAS_UDFPS := true
+TARGET_SUPPORTED_REFRESH_RATES := 60,90,120
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_ENABLE_BLUR := true
+SURFACE_FLINGER_BOOST := true
+PRODUCT_NO_CAMERA := true
+PERF_GOV_SUPPORTED := true
+PERF_DEFAULT_GOV := schedutil
+TARGET_INCLUDE_AXFX := true
+
+# Camera information (multiple sensors supported)
+AXION_CAMERA_REAR_INFO := 50,8
+AXION_CAMERA_FRONT_INFO := 20
+
+# Maintainer name (underscores become spaces in the UI)
+AXION_MAINTAINER := BLU
+
+# Processor name (underscores become spaces)
+AXION_PROCESSOR := Snapdragon_8s_Gen_3
