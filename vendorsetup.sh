@@ -8,7 +8,7 @@ git clone https://github.com/ryznstk/andriod_vendor_xiaomi_peridot.git vendor/xi
 # Kernel source (fresh clone)
 echo "Cloning kernel source tree..."
 rm -rf kernel/xiaomi/sm8635
-git clone -b bka --depth 1 https://github.com/Evolution-X-Devices/kernel_xiaomi_sm8635.git kernel/xiaomi/sm8635
+git clone -b bka --depth 1 https://github.com/ryznstk/blu_kernel_xiaomi_sm8635.git kernel/xiaomi/sm8635
 
 rm -rf kernel/xiaomi/sm8635-modules
 git clone -b bka --depth 1 https://github.com/Evolution-X-Devices/kernel_xiaomi_sm8635-modules.git kernel/xiaomi/sm8635-modules
